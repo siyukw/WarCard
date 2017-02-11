@@ -297,6 +297,7 @@
 				F5EED2841E4D8B0D00C8592D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
