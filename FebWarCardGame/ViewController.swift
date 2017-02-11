@@ -12,9 +12,13 @@ class ViewController: UIViewController {
     // cards
     @IBOutlet weak var rightCard: UIImageView!
     @IBOutlet weak var leftCard: UIImageView!
-    // score labels 
+    // score labels
     @IBOutlet weak var leftScoreLabel: UILabel!
     @IBOutlet weak var rightScoreLabel: UILabel!
+
+    @IBAction func dealButton(_ sender: Any) {
+        print("deal tapped");
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +30,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
