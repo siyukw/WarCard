@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // cards
+    @IBOutlet weak var rightCard: UIImageView!
+    @IBOutlet weak var leftCard: UIImageView!
+    // score labels 
+    @IBOutlet weak var leftScoreLabel: UILabel!
+    @IBOutlet weak var rightScoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
