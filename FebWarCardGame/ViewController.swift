@@ -17,7 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var rightScoreLabel: UILabel!
 
     @IBAction func dealButton(_ sender: Any) {
-        print("deal tapped");
+        // randomize left number from 2 to 10
+        let leftNum = arc4random_uniform(9) + 2
+        // randomize right number from 2 to 10
+        let rightNum = arc4random_uniform(9) + 2
+        
+        leftCard.image = UIImage(named: "card\(leftNum)");
+        rightCard.image = UIImage(named: "card\(rightNum)");
     }
     
     override func viewDidLoad() {

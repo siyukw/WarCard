@@ -116,7 +116,9 @@
                     <connections>
                         <outlet property="LeftCard" destination="28S-oG-4gr" id="81a-PQ-ftr"/>
                         <outlet property="RightCard" destination="UL5-S5-AbY" id="WCU-si-wVE"/>
+                        <outlet property="leftCard" destination="28S-oG-4gr" id="pvD-pj-752"/>
                         <outlet property="leftScoreLabel" destination="jEx-h4-vQQ" id="h1g-nZ-CEu"/>
+                        <outlet property="rightCard" destination="UL5-S5-AbY" id="66b-zA-QBu"/>
                         <outlet property="rightScoreLabel" destination="ris-XI-k1x" id="lc7-sv-aef"/>
                     </connections>
                 </viewController>
